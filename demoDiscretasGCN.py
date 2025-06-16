@@ -6,13 +6,16 @@ import matplotlib.pyplot as plt
 from collections import Counter
 """
 Demo Investigacion GNNs Estructuras Discretas
-Autores: Sebastián Garro Granados, Joel Brenes Vargas, Efraín Ignacio Retana Segura
+Estudiantes: Sebastián Garro Granados, Joel Brenes Vargas, Efraín Ignacio Retana Segura
 Grupo: 02-10 am
 
 Antes de nada, las bases para hacer una NN de esta manera se hizo usando el estudio/tutorial: 
 https://colab.research.google.com/github/lucmos/DLAI-s2-2020-tutorials/blob/master/09/GCN.ipynb#scrollTo=Vk7Gd5DnhEGG
 Hecho por Luca Moschella y Antonio Norelli
 Esto se tomo solo para la base de la GCN y las layers
+https://chat.openai.com
+Asistente de inteligencia artificial utilizados para generacion de codigo y explicacion de conceptos tecnicos.
+(Más que todo para ayuda en la parte de matrices)
 """
 G = nx.karate_club_graph()
 n_nodes = G.number_of_nodes()
