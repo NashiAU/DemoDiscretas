@@ -5,6 +5,10 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 from collections import Counter
 """
+Demo Investigacion GNNs Estructuras Discretas
+Autores: Sebastián Garro Granados, Joel Brenes Vargas, Efraín Ignacio Retana Segura
+Grupo: 02-10 am
+
 Antes de nada, las bases para hacer una NN de esta manera se hizo usando el estudio/tutorial: 
 https://colab.research.google.com/github/lucmos/DLAI-s2-2020-tutorials/blob/master/09/GCN.ipynb#scrollTo=Vk7Gd5DnhEGG
 Hecho por Luca Moschella y Antonio Norelli
